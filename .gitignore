@@ -1,0 +1,30 @@
+# ===== 敏感信息 / 本地配置（绝不能上传）=====
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# ===== 依赖目录 =====
+node_modules/
+vendor/
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# ===== 构建产物 / 缓存 =====
+dist/
+build/
+.next/
+.cache/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# ===== 编辑器 / 系统文件 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
